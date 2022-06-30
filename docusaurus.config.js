@@ -63,21 +63,21 @@ const config = {
         }
       },
       navbar: {
-        title: 'My Site',
+        title: '阅读圣经',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.webp',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '读经',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '解经', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/dingbo8128/rdbb',
             label: 'GitHub',
             position: 'right',
           },
