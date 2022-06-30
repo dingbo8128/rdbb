@@ -7,7 +7,7 @@ function convert(buf) {
     const lines = content.split("\n");
     for (let i = 1; i < lines.length; i++) {
         let line = lines[i].trim();
-        let m = line.match(/^#{2} [^#]+(\d+)$/);
+        let m = line.match(/^#{2} [^#]+ (\d+)$/);
         if (m) {
             let no = m[1];
             lines[i] = line + ` {#${no}}`
